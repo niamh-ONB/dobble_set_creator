@@ -9,7 +9,7 @@ num_of_symbols = grid_size**2 + grid_size + 1
 symbols_on_card = grid_size + 1
 card_array = create_card_array(grid_size)
 
-symbols_path = r'Cards'
+symbols_path = r'Symbols'
 count = 0
 
 for path in os.listdir(symbols_path):
